@@ -1,0 +1,27 @@
+/* Skills Content Card */
+
+.skillsContentText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skillsContentCard span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.skillsProgress {
+  min-height: 25px;
+  height: 100%;
+  border: 2px solid #00abf0;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.skillsProgressLine {
+  background-color: #00abf0;
+  height: 11px;
+}

@@ -1,0 +1,116 @@
+/* Projects Card */
+
+.projectsCard {
+  padding: 0 57px 0 29px;
+  width: 100%;
+}
+
+.projectsCard div {
+  border: 2px solid #00abf0;
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+  min-height: 367px;
+  height: 100%;
+}
+
+.projectsCard div::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  background-color: #00abf0;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.projectsCard div::after {
+  content: "";
+  width: 2px;
+  height: 365px;
+  position: absolute;
+  top: 0;
+  left: -21px;
+  background-color: #00abf0;
+  background-repeat: no-repeat;
+}
+
+.projectsCard div:hover {
+  background-color: #0a3b5a;
+  box-shadow: 0px 0px 10px 0px #00abf0;
+}
+
+.projectsCard div h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.projectsCard div p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.projectsCard div p b {
+  color: #00abf0;
+}
+
+.projectsCard div p a {
+  color: #ffffff;
+}
+
+/* Media Query 1169px */
+
+@media (max-width: 1169px) {
+  .projectsCard div {
+    min-height: 466px;
+  }
+
+  .projectsCard div::after {
+    height: 464px;
+  }
+}
+
+/* Media Query 991px */
+
+@media (max-width: 991px) {
+  .projectsCard div {
+    min-height: 291px;
+  }
+
+  .projectsCard div::after {
+    height: 289px;
+  }
+}
+
+/* Media Query 767px */
+
+@media (max-width: 767px) {
+  .projectsCard div {
+    min-height: 443px;
+  }
+
+  .projectsCard div::after {
+    height: 441px;
+  }
+}
+
+/* Media Query 575px */
+
+@media (max-width: 575px) {
+  .projectsCard {
+    min-width: 357px;
+  }
+
+  .projectsCard div {
+    min-height: 657px;
+  }
+
+  .projectsCard div::after {
+    height: 655px;
+  }
+}

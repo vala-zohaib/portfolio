@@ -1,0 +1,73 @@
+/* Experience Card */
+
+.experienceCard {
+  padding: 0 30px 0 30px;
+  width: 100%;
+}
+
+.experienceCard div {
+  border: 2px solid #00abf0;
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.experienceCard div::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  background-color: #00abf0;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.experienceCard div::after {
+  content: "";
+  width: 2px;
+  height: 142px;
+  position: absolute;
+  top: 0;
+  left: -21px;
+  background-color: #00abf0;
+  background-repeat: no-repeat;
+}
+
+.experienceCard div:hover {
+  background-color: #0a3b5a;
+  box-shadow: 0px 0px 10px 0px #00abf0;
+}
+
+.experienceCard div h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.experienceCard div p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.experienceCard div span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #00abf0;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-top: 8px;
+}
+
+.experienceCard div span::before {
+  content: "";
+  background-image: url(../../assets/images/shared/calenderIcon.webp);
+  width: 14px;
+  height: 14px;
+  position: relative;
+  display: inline-block;
+}

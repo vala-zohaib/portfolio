@@ -1,0 +1,21 @@
+/* Swiper */
+
+.swiper {
+  padding: 50px 0 50px 50px;
+}
+
+/* Media Query 575px */
+
+@media (max-width: 575px) {
+  .swiper {
+    padding: 50px 0 50px 35px;
+  }
+}
+
+/* Media Query 413px */
+
+@media (max-width: 413px) {
+  .swiper {
+    padding: 50px 0 50px 10px;
+  }
+}

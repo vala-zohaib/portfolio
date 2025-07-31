@@ -1,0 +1,20 @@
+/* Section Head */
+
+.sectionHead h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sectionHead h2 span {
+  color: #00abf0;
+}
+
+/* Media Query 767px */
+
+@media (max-width: 767px) {
+  .sectionHead h2 {
+    font-size: 39px;
+  }
+}
