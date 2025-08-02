@@ -37,17 +37,17 @@ const ProjectSwiper = () => {
           details={
             "In this project, i developed a fully dynamic, responsive, appealing and user-friendly portfolio website for myself. It includes all the details regarding my professional profile, education, skills, work experience, projects, certifications and all my details."
           }
-          link={"https://github.com/m-bilaal/MyPortfolio"}
-          linktext={"https://github.com/m-bilaal/MyPortfolio"}
+          link={"https://github.com/vala-zohaib/portfolio"}
+          linktext={"https://github.com/vala-zohaib/portfolio"}
         />
       </SwiperSlide>
       <SwiperSlide>
         <Projectscard
           name={
-            "Fully Responsive Skyscrapersnow.com Website Using HTML, CSS, JavaScript, jQuery and PHP"
+            "Reusable Google Forms-Inspired NPM Package with React, TypeScript, and Redux"
           }
           details={
-            "In this project, I developed a fully responsive website for Skyscrapers, a company that recently wanted to redesign their existing website with a new, updated look by collaborating with my team members. I translated high-fidelity Figma designs into clean and efficient code while maintaining design consistency and user experience that meets the company's needs and aligns with their new branding vision."
+            "In this project at Technic Lab, I created a reusable NPM package that replicates the functionality of Google Forms, allowing developers to easily integrate customizable and dynamic form builders into React applications. Built with React, TypeScript, and Redux, it ensures modularity, type safety, and efficient state management. This solution significantly reduced repetitive form creation across multiple projects while aligning with modern development standards."
           }
           link={"javascript:;"}
           linktext={"Confidential"}

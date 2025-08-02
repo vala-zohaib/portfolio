@@ -352,7 +352,8 @@ a {
 }
 
 .aboutProfilePic img {
-  width: 205px;
+  width: 200px;
+  height: 210px;
   border-radius: 50%;
   margin-top: 40px;
 }

@@ -21,8 +21,8 @@ import metaBadge from "./assets/images/metaBadge.webp";
 import universityMichigan from "./assets/images/universityMichigan.webp";
 import johnHopkins from "./assets/images/johnHopkins.webp";
 import universityLondon from "./assets/images/universityLondon.webp";
-import kpitbEci from "./assets/images/kpitbEci.webp";
-import eHunar from "./assets/images/eHunar.webp";
+import mongoDB from "./assets/images/mongoDB.webp";
+import teamLead from "./assets/images/teamLead.webp";
 
 function App() {
   // Header Hamburger Menu State
@@ -447,9 +447,9 @@ function App() {
             <Sectionhead head1={"My"} head2={"Experience"} />
             <div className="experienceMainCard">
               <Experiencecard
-                designation={"Front-End Developer Intern"}
-                company={"Skyscrapers Pvt Ltd."}
-                date={"February 2024-May 2024"}
+                designation={"Typescript Developer Intern"}
+                company={"Technics Lab"}
+                date={"June 2025-August 2025"}
               />
               <button
                 className="experienceCertificateBtn"
@@ -651,8 +651,8 @@ function App() {
               <div className="certificationsCard">
                 <div className="certificationsInnerCard">
                   <Certificationscard
-                    title={"KPITB ECI Web Development Certificate"}
-                    company={"KPITB"}
+                    title={"Introduction to MongoDB Certificate"}
+                    company={"MongoDB University"}
                   />
                   <div className="checkCertificate">
                     <button
@@ -663,7 +663,7 @@ function App() {
                     </button>
                   </div>
                   <Modal
-                    img={kpitbEci}
+                    img={mongoDB}
                     state={certificationsOpenModal6}
                     function={certificationsCloseUpModal6}
                   />
@@ -672,8 +672,8 @@ function App() {
               <div className="certificationsCard">
                 <div className="certificationsInnerCard">
                   <Certificationscard
-                    title={"EHunar UI / UX Designing Certificate"}
-                    company={"EHunar"}
+                    title={"Recognized for Organizing Hackathon as Club Head"}
+                    company={"Tech Club"}
                   />
                   <div className="checkCertificate">
                     <button
@@ -684,7 +684,7 @@ function App() {
                     </button>
                   </div>
                   <Modal
-                    img={eHunar}
+                    img={teamLead}
                     state={certificationsOpenModal7}
                     function={certificationsCloseUpModal7}
                   />
@@ -704,8 +704,8 @@ function App() {
             <div className="footerContact">
               <div className="footerDetails">
                 <p>+92 3263684107</p>
-                <a href="mailto: shirazkhuhro@gmail.com">
-                  shirazkhuhro@gmail.com
+                <a href="mailto: dev.muhammadzohaib@gmail.com">
+                  dev.muhammadzohaib@gmail.com
                 </a>
               </div>
               <div className="footerLinks">
