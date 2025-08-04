@@ -47,7 +47,7 @@ const ProjectSwiper = () => {
             "Reusable Google Forms-Inspired NPM Package with React, TypeScript, and Redux"
           }
           details={
-            "In this project at Technic Lab, I created a reusable NPM package that replicates the functionality of Google Forms, allowing developers to easily integrate customizable and dynamic form builders into React applications. Built with React, TypeScript, and Redux, it ensures modularity, type safety, and efficient state management. This solution significantly reduced repetitive form creation across multiple projects while aligning with modern development standards."
+            "In this project at Technic Lab, I built a reusable NPM package replicating Google Forms functionality using React, TypeScript, and Redux. It enables easy integration of dynamic form builders while ensuring type safety, modularity, and efficient state management."
           }
           link={"javascript:;"}
           linktext={"Confidential"}
@@ -56,13 +56,13 @@ const ProjectSwiper = () => {
       <SwiperSlide>
         <Projectscard
           name={
-            "Fully Responsive mytruetraffic.com Website Home Page Using HTML, CSS and jQuery"
+            "Fully Responsive Facebook-Inspired Community Page Built with TypeScript and SCSS"
           }
           details={
-            "In this project, I developed a fully responsive homepage for My True Traffic, a product website of Skyscrapers. I converted high-quality Figma design  into clean and efficient code while ensuring consistent design and a great user experience."
+            "In this project, I built a fully responsive Facebook-inspired community page using TypeScript and SCSS. I translated a detailed UI concept into clean, scalable code while focusing on personalized posts, comments, and an intuitive user experience."
           }
-          link={"https://github.com/m-bilaal/MyTrueTraffic"}
-          linktext={"https://github.com/m-bilaal/MyTrueTraffic"}
+          link={"https://github.com/vala-zohaib/community-page"}
+          linktext={"https://github.com/vala-zohaib/community-page"}
         />
       </SwiperSlide>
       <SwiperSlide>

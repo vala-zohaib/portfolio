@@ -19,13 +19,13 @@ import Certificationscard from "./components/certificationscard/Certificationsca
 import metaProfessional from "./assets/images/metaProfessional.webp";
 import metaBadge from "./assets/images/metaBadge.webp";
 import universityMichigan from "./assets/images/universityMichigan.webp";
-import johnHopkins from "./assets/images/johnHopkins.webp";
-import universityLondon from "./assets/images/universityLondon.webp";
+//import johnHopkins from "./assets/images/johnHopkins.webp";
+import gitcertificate from "./assets/images/gitcertificate.webp";
 import mongoDB from "./assets/images/mongoDB.webp";
 import teamLead from "./assets/images/teamLead.webp";
 
 function App() {
-  // Header Hamburger Menu State
+  // Header Hamburger Menu State #081b29
   const [isActive, setIsActive] = useState(false);
   // Header Color Set and Padding Transition State
   const [navbarColor, setNavbarColor] = useState("#081b29");
@@ -39,8 +39,8 @@ function App() {
     useState("none");
   const [certificationsOpenModal3, setCertificationsOpenModal3] =
     useState("none");
-  const [certificationsOpenModal4, setCertificationsOpenModal4] =
-    useState("none");
+  // const [certificationsOpenModal4, setCertificationsOpenModal4] =
+  //   useState("none");
   const [certificationsOpenModal5, setCertificationsOpenModal5] =
     useState("none");
   const [certificationsOpenModal6, setCertificationsOpenModal6] =
@@ -88,13 +88,13 @@ function App() {
     setCertificationsOpenModal3("none");
   };
 
-  const certificationsOpenUpModal4 = () => {
-    setCertificationsOpenModal4("block");
-  };
+  // const certificationsOpenUpModal4 = () => {
+  //   setCertificationsOpenModal4("block");
+  // };
 
-  const certificationsCloseUpModal4 = () => {
-    setCertificationsOpenModal4("none");
-  };
+  // const certificationsCloseUpModal4 = () => {
+  //   setCertificationsOpenModal4("none");
+  // };
 
   const certificationsOpenUpModal5 = () => {
     setCertificationsOpenModal5("block");
@@ -426,6 +426,11 @@ function App() {
                 }
                 date={"August 2022 - June 2026"}
               />
+               <Educationcard
+                qualification={"English Speaking Course"}
+                institution={"Domino English Learning Center, Karachi"}
+                date={"July 2021 - October 2021"}
+              />
               <Educationcard
                 qualification={"FSc (Pre-Engineering)"}
                 institution={"Samra English Public Colledge, Gambat"}
@@ -491,14 +496,11 @@ function App() {
                   <Skillscontentcard skill={"GitHub"} percentage={"90%"} />
                   <Skillscontentcard skill={"phpMyAdmin"} percentage={"90%"} />
                   <Skillscontentcard skill={"WordPress"} percentage={"65%"} />
-                  <Skillscontentcard skill={"IBM SPSS"} percentage={"90%"} />
                   <Skillscontentcard
                     skill={"MS Word, Powerpoint, Excel"}
                     percentage={"95%"}
                   />
                   <Skillscontentcard skill={"Canva"} percentage={"95%"} />
-                  <Skillscontentcard skill={"Google Ads"} percentage={"60%"} />
-                  <Skillscontentcard skill={"Meta Ads"} percentage={"65%"} />
                 </div>
               </div>
               <div className="skillsSoftMainCard">
@@ -606,30 +608,7 @@ function App() {
                 <div className="certificationsInnerCard">
                   <Certificationscard
                     title={
-                      "Johns Hopkins University HTML, CSS, And JavaScript For Web Developers Certificate"
-                    }
-                    company={"Coursera"}
-                  />
-                  <div className="checkCertificate">
-                    <button
-                      className="certificationsCertificateBtn"
-                      onClick={certificationsOpenUpModal4}
-                    >
-                      Check Certificate
-                    </button>
-                  </div>
-                  <Modal
-                    img={johnHopkins}
-                    state={certificationsOpenModal4}
-                    function={certificationsCloseUpModal4}
-                  />
-                </div>
-              </div>
-              <div className="certificationsCard">
-                <div className="certificationsInnerCard">
-                  <Certificationscard
-                    title={
-                      "University Of London Responsive Website Basics: Code With HTML, CSS, And JavaScript Certificate"
+                      "Coursera IBM Getting Started with Git and GitHub Certificate"
                     }
                     company={"Coursera"}
                   />
@@ -642,7 +621,7 @@ function App() {
                     </button>
                   </div>
                   <Modal
-                    img={universityLondon}
+                    img={gitcertificate}
                     state={certificationsOpenModal5}
                     function={certificationsCloseUpModal5}
                   />
