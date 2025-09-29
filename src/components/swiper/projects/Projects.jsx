@@ -68,13 +68,12 @@ const ProjectSwiper = () => {
       <SwiperSlide>
         <Projectscard
           name={
-            "E-Commerce Women Clothes Website Using HTML, CSS, JavaScript and PHP"
+            "Fintech App Using React Native Expo for Secure, Biometric Payments and Seamless Cashless Transactions"
           }
           details={
-            "In this project, i developed a feature-rich , appealing and user-friendly e-commerce women clothes website. I designed and implemented an intuitive user interface ensuring seamless navigation. I Integrated interactive features and functionalities to enhance user engagement and streamline the shopping experience."
-          }
-          link={"https://github.com/m-bilaal/FashionFlix"}
-          linktext={"https://github.com/m-bilaal/FashionFlix"}
+            "Currently, I’m working on an intuitive, scalable application that simplifies the university admission process. It enables students to apply to multiple institutions seamlessly through a single platform, offering autofill, real-time tracking, partner APIs, and a modern, user-friendly interface."          }
+          link={"javascript:;"}
+          linktext={"Confidential for now"}
         />
       </SwiperSlide>
     </Swiper>

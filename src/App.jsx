@@ -16,9 +16,7 @@ import experienceCertificate from "./assets/images/experienceCertificate.webp";
 import Skillscontentcard from "./components/skillscontentcard/Skillscontentcard";
 import Projects from "./components/swiper/projects/Projects";
 import Certificationscard from "./components/certificationscard/Certificationscard";
-import metaProfessional from "./assets/images/metaProfessional.webp";
-import metaBadge from "./assets/images/metaBadge.webp";
-import universityMichigan from "./assets/images/universityMichigan.webp";
+
 //import johnHopkins from "./assets/images/johnHopkins.webp";
 import gitcertificate from "./assets/images/gitcertificate.webp";
 import mongoDB from "./assets/images/mongoDB.webp";
@@ -33,12 +31,7 @@ function App() {
   // Experience Modal Open Close State
   const [experienceOpenModal, setExperienceOpenModal] = useState("none");
   // Certifications Modal Open Close State
-  const [certificationsOpenModal1, setCertificationsOpenModal1] =
-    useState("none");
-  const [certificationsOpenModal2, setCertificationsOpenModal2] =
-    useState("none");
-  const [certificationsOpenModal3, setCertificationsOpenModal3] =
-    useState("none");
+
   // const [certificationsOpenModal4, setCertificationsOpenModal4] =
   //   useState("none");
   const [certificationsOpenModal5, setCertificationsOpenModal5] =
@@ -64,29 +57,7 @@ function App() {
     setExperienceOpenModal("none");
   };
 
-  const certificationsOpenUpModal1 = () => {
-    setCertificationsOpenModal1("block");
-  };
 
-  const certificationsCloseUpModal1 = () => {
-    setCertificationsOpenModal1("none");
-  };
-
-  const certificationsOpenUpModal2 = () => {
-    setCertificationsOpenModal2("block");
-  };
-
-  const certificationsCloseUpModal2 = () => {
-    setCertificationsOpenModal2("none");
-  };
-
-  const certificationsOpenUpModal3 = () => {
-    setCertificationsOpenModal3("block");
-  };
-
-  const certificationsCloseUpModal3 = () => {
-    setCertificationsOpenModal3("none");
-  };
 
   // const certificationsOpenUpModal4 = () => {
   //   setCertificationsOpenModal4("block");
@@ -539,71 +510,8 @@ function App() {
           <div className="certificationWrapper">
             <Sectionhead head1={"My"} head2={"Certifications"} />
             <div className="certififcationsMainCard">
-              <div className="certificationsCard">
-                <div className="certificationsInnerCard">
-                  <Certificationscard
-                    title={"Meta Front-End Developer Professional Certificate"}
-                    company={"Coursera"}
-                  />
-                  <div className="checkCertificate">
-                    <button
-                      className="certificationsCertificateBtn"
-                      onClick={certificationsOpenUpModal1}
-                    >
-                      Check Certificate
-                    </button>
-                  </div>
-                  <Modal
-                    img={metaProfessional}
-                    state={certificationsOpenModal1}
-                    function={certificationsCloseUpModal1}
-                  />
-                </div>
-              </div>
-              <div className="certificationsCard">
-                <div className="certificationsInnerCard">
-                  <Certificationscard
-                    title={"Meta Front-End Developer Badge"}
-                    company={"Coursera"}
-                  />
-                  <div className="checkCertificate">
-                    <button
-                      className="certificationsCertificateBtn"
-                      onClick={certificationsOpenUpModal2}
-                    >
-                      Check Certificate
-                    </button>
-                  </div>
-                  <Modal
-                    img={metaBadge}
-                    state={certificationsOpenModal2}
-                    function={certificationsCloseUpModal2}
-                  />
-                </div>
-              </div>
-              <div className="certificationsCard">
-                <div className="certificationsInnerCard">
-                  <Certificationscard
-                    title={
-                      "University Of Michigan Web Design For Everybody: Basics Of Web Development & Coding Professional Certificate"
-                    }
-                    company={"Coursera"}
-                  />
-                  <div className="checkCertificate">
-                    <button
-                      className="certificationsCertificateBtn"
-                      onClick={certificationsOpenUpModal3}
-                    >
-                      Check Certificate
-                    </button>
-                  </div>
-                  <Modal
-                    img={universityMichigan}
-                    state={certificationsOpenModal3}
-                    function={certificationsCloseUpModal3}
-                  />
-                </div>
-              </div>
+              
+              
               <div className="certificationsCard">
                 <div className="certificationsInnerCard">
                   <Certificationscard
